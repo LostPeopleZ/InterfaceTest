@@ -1,0 +1,106 @@
+2021-05-14 10:00:34.781 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:04:34.024 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:08:11.968 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:13:22.671 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:13:46.385 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:26:43.987 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 10:26:43.997 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 10:26:44.595 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 10:26:47.040 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+java.lang.AssertionError: expected [true] but found [false]========
+2021-05-14 10:26:47.042 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 10:26:47.658 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+java.lang.AssertionError: expected [true] but found [false]========
+2021-05-14 10:26:47.668 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 16:59:43.201 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 16:59:43.210 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 16:59:43.761 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 16:59:49.471 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+java.net.ConnectException: Connection refused: connect========
+2021-05-14 16:59:49.537 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 16:59:53.590 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+java.net.ConnectException: Connection refused: connect========
+2021-05-14 16:59:53.596 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:01:28.366 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:01:28.377 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:01:28.965 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:01:30.809 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:01:30.815 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:01:30.828 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:01:30.840 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:05:00.821 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:05:00.834 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:05:01.448 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:05:03.258 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:05:03.264 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:05:03.278 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:05:03.290 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:07:42.891 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:07:42.904 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:07:43.486 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:07:45.302 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:07:45.305 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:07:45.320 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:07:45.330 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:10:12.443 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:10:12.450 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:10:13.006 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:10:14.759 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:10:14.834 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:10:14.849 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:10:14.855 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:10:59.554 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:10:59.566 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:11:00.166 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:11:01.885 [TestNG-tests-1-44] INFO  com.zhicall.listener.TestLogListener.onTestSuccess - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试通过========
+2021-05-14 17:11:01.888 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:11:01.901 [TestNG-tests-1-44] INFO  com.zhicall.listener.TestLogListener.onTestSuccess - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试通过========
+2021-05-14 17:11:01.911 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:11:38.947 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:11:38.958 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:11:39.546 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:11:41.341 [TestNG-tests-1-44] INFO  com.zhicall.listener.TestLogListener.onTestSuccess - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试通过========
+2021-05-14 17:11:41.344 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:11:41.358 [TestNG-tests-1-44] INFO  com.zhicall.listener.TestLogListener.onTestSuccess - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试通过========
+2021-05-14 17:11:41.371 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:21:37.388 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:21:37.396 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:21:37.977 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:21:39.786 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:21:39.851 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-14 17:21:39.865 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.
+	java.lang.IllegalStateException: Cannot determine which path implementation to use because the content-type text/plain; charset=utf-8 doesn't map to a path implementation.========
+2021-05-14 17:21:39.871 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-14 17:22:07.795 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:22:16.096 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-14 17:22:16.105 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-14 17:22:16.740 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========

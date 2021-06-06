@@ -1,0 +1,142 @@
+2021-05-15 16:00:16.653 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 16:00:16.674 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 16:00:17.257 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-15 16:00:18.016 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	org.opentest4j.AssertionFailedError: expected: <贺喜你，登录成功> but was: <登录失败>========
+2021-05-15 16:00:18.091 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-15 16:00:18.100 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	org.opentest4j.AssertionFailedError: expected: <贺喜你，登录成功> but was: <登录失败>========
+2021-05-15 16:00:18.105 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 16:03:27.298 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 16:03:27.309 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 16:03:27.980 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) username:lock,
+password:opms123456]========
+2021-05-15 16:03:27.993 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 21:49:33.207 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 21:49:33.214 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 21:49:33.757 [TestNG-tests-1-66] INFO  com.zhicall.listener.TestLogListener.onTestSkipped - ========com.zhicall.testcase.OpmsTest.testLoginOpms跳过测试========
+2021-05-15 21:49:33.869 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 21:50:15.281 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 21:50:15.291 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 21:50:15.952 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock]========
+2021-05-15 21:50:15.966 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 21:58:58.036 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 21:58:58.045 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 21:58:58.599 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock]========
+2021-05-15 21:58:58.713 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 22:01:14.538 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:01:14.550 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:03:30.941 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock]========
+2021-05-15 22:04:42.237 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:04:42.245 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:04:42.822 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock]========
+2021-05-15 22:04:42.932 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 22:05:37.207 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:05:37.216 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:08:31.823 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock,(java.lang.String) lock]========
+2021-05-15 22:08:39.287 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:08:39.300 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:10:50.670 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:10:50.684 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:14:52.155 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:14:52.164 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:14:52.702 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) opms123456,(java.lang.String) lock,(java.lang.String) 123456,null,null,null,null,null,null]========
+2021-05-15 22:14:52.810 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 22:15:17.161 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:15:17.174 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:15:17.897 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,(java.lang.String) opms123456,(java.lang.String) lock,(java.lang.String) 123456,null,null,null,null,null,null]========
+2021-05-15 22:15:17.908 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 22:15:37.891 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:15:37.904 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:18:21.475 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:18:21.487 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:24:54.192 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:24:54.199 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:24:54.754 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,null,null,null]========
+2021-05-15 22:24:54.856 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 22:25:07.432 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:25:07.442 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:30:00.618 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,null,null,null]========
+2021-05-15 22:30:15.801 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:30:15.813 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 22:31:39.155 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 22:31:39.168 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:21:03.290 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:21:03.301 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:21:03.963 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:21:19.441 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:21:19.449 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:21:20.003 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:22:04.628 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:23:14.981 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:23:14.989 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:23:15.528 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:24:33.293 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:24:33.301 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:24:33.851 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:25:14.290 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:25:14.302 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:25:14.910 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:27:36.033 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:32:21.405 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:32:21.413 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:32:21.961 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.testng.internal.reflect.MethodMatcherException: 
+Data provider mismatch
+Method: testLoginOpms([Parameter{index=0, type=java.lang.String, declaredAnnotations=[]}, Parameter{index=1, type=java.lang.String, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) lock,null,null,null]========
+2021-05-15 23:32:22.070 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================
+2021-05-15 23:32:53.866 [main-34] INFO  com.zhicall.util.PropertiesReader.readProperties - 读取项目配置文件
+2021-05-15 23:32:53.874 [TestNG-tests-1-22] INFO  com.zhicall.listener.TestLogListener.onStart - ====================opms测试开始====================
+2021-05-15 23:32:53.897 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-15 23:32:54.702 [TestNG-tests-1-44] INFO  com.zhicall.listener.TestLogListener.onTestSuccess - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试通过========
+2021-05-15 23:32:54.769 [TestNG-tests-1-33] INFO  com.zhicall.listener.TestLogListener.onTestStart - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试开始========
+2021-05-15 23:32:54.785 [TestNG-tests-1-55] ERROR com.zhicall.listener.TestLogListener.onTestFailure - ========com.zhicall.testcase.OpmsTest.testLoginOpms测试失败,失败原因如下：
+org.opentest4j.MultipleFailuresError: Multiple Failures (2 failures)
+	org.opentest4j.AssertionFailedError: expected: <1> but was: <0>
+	org.opentest4j.AssertionFailedError: expected: <贺喜你，登录成功> but was: <登录失败>========
+2021-05-15 23:32:54.791 [TestNG-tests-1-77] INFO  com.zhicall.listener.TestLogListener.onFinish - ====================opms测试结束====================

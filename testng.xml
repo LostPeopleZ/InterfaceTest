@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="API Test Suite" parallel="tests" thread-count="1">
+    <!-- 配置文件路径 -->
+    <parameter name="propertiesPath" value="src/test/resources/config/config.properties"/>
+
+    <!-- jenkins 传参示例，可做成数据驱动 -->
+<!--    <parameter name="param1" value="${param1}"/>-->
+<!--    <parameter name="param2" value="${param2}"/>-->
+
+    <!-- 用于产生 token 的用户和密码 -->
+    <!-- 我这里放置的是虚假信息，请用户自行注册免费的企业微信，在企业微信中找到 corpid 和通讯录的 corpsecret 并写在下面 -->
+    <parameter name="FilePath" value="src/test/resources/Excel/APITest.xlsx"/>
+    <parameter name="SheetName" value="Sheet1"/>
+
+    <!-- 测试套件 -->
+    <suite-files>
+        <!-- Li Ming -->
+        <suite-file path="liming_testng.xml"/>
+        <!-- Zhang Hua -->
+<!--        <suite-file path="zhanghua_testng.xml"/>-->
+    </suite-files>
+
+    <!-- 监听器 -->
+    <listeners>
+        <!-- 测试日志监听器 -->
+        <listener class-name="com.zhicall.listener.TestLogListener"/>
+        <!-- 优先级监听器 -->
+        <listener class-name="com.zhicall.listener.RePrioritizingListener"/>
+    </listeners>
+</suite>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="liming Test Suite" parallel="tests" thread-count="2">
+<!--    <test name="百度测试" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="com.zhicall.testcase.BaiduTest">-->
+<!--                <methods>-->
+<!--                    <include name="testSearch"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+<!--    <test name="企业微信-部门管理模块测试" preserve-order="true">-->
+<!--        <classes>-->
+<!--            <class name="com.zhicall.testcase.DepartmentManagementTest">-->
+<!--                <methods>-->
+<!--                    <include name="testCreateDepartment"/>-->
+<!--                    <include name="testDeleteDepartment"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test name="opms测试" preserve-order="true">
+        <classes>
+            <class name="com.zhicall.testcase.OpmsTest"></class>
+        </classes>
+    </test>
+</suite>
